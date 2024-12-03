@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<Title> Contact </Title>
+		<link rel="stylesheet" href="individualproj.css">
+		<style TYPE="text/css">
+		.header{
+			font-family: "Great Vibes", serif;
+			font-size:40pt;
+			margin:15px;
+		
+		</style>
+	</head>
+	<center>
+		<img src="https://marketplace.canva.com/EAFjuadZRew/1/0/1600w/canva-simple-minimalist-travel-logo-ugEn3vq3IOQ.jpg" width="300" height="300">
+	</center>
+		<body BGCOLOR=#f8f1f1>
+		<div class="navbar" id="Navbar" align="center">
+			<a href="#" onclick="replaceLocationOne()"> MyHome</a>
+			<a href="#" onclick="replaceLocationTwo()"> Blog</a>
+			<a href="#" onclick="replaceLocationThree()"> My Gallery</a>
+			<a href="#" onclick="replaceLocationFour()"> Bucket List Destinations </a>
+			<a href="#" class="active">Contact Me</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+		<br><br>
+		<img src="https://57hours.com/wp-content/uploads/2023/04/best-hikes-europe-768x432.jpg" width="99%" height="400">
+		
+		<br>
+		
+		<div>
+			<center>
+				<h1 style="color: brown" class="header"> Get in Touch!</h1>
+			</center>
+		
+ 
+		<p style="text-indent: 40px"> For questions about a specific page or post, please use the comments section. For any other question, you can use the form below to send me a message, I’ll reply as soon as possible.</div>
+
+				<br>
+		<form>
+			<fieldset>
+				<label>  Name: </label>
+					<input type="name" /> 
+						<br><br>
+				
+						
+				<label for = "uemail"> Email: </label>
+					<input type="email" /> 
+						<br><br>
+						
+				<label> Comments: </label> <br>
+					
+					<textarea name="Comments" rows="10" cols="160" > </textarea>
+							<br><br>
+				<input type = "submit" name ="Submit" value = "Submit">
+			</fieldset>	
+		</form>			
+	
+	
+		<script>
+			function myFunction() {
+				var x = document.getElementById("topnav");
+				if (x.className === "Navbar") {
+				x.className += " responsive";
+				} else {
+				x.className = "topnav";
+				}
+			}
+			
+			function goBack() {
+			  history.back();
+			}
+			
+			function replaceLocationOne() {
+				// Replace the current location
+				// with new location
+				let newloc = "MyHome.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationTwo() {
+				// Replace the current location
+				// with new location
+				let newloc = "Blog.html";
+				window.location.replace(newloc);
+			}
+			
+			function replaceLocationThree() {
+				let newloc = "MyGallery.html";
+				window.location.replace(newloc);
+	
+			}
+			
+			function replaceLocationFour() {
+				// Replace the current location
+				// with new location
+				let newloc = "BucketListDestinations.html";
+				window.location.replace(newloc);
+			}
+	
+
+		
+		</script>
+
+
+
+
+
+
+	</body>
+
+</html>

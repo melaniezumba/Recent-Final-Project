@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title> Blog </title>
+		<link rel="stylesheet" href="individualproj.css">
+	</head>
+	
+		<center>
+			<img src="https://marketplace.canva.com/EAFjuadZRew/1/0/1600w/canva-simple-minimalist-travel-logo-ugEn3vq3IOQ.jpg" width="200" height="200">
+		</center>
+	
+	<br><br>
+	
+		<body BGCOLOR=#f6eef2 >
+			<div class="navbar" id="Navbar" align="center">
+			<a href="#" onclick="replaceLocationOne()">MyHome</a>
+			<a href="#" class="active">	Blog</a>
+			<a href="#" onclick="replaceLocationTwo()">My Gallery</a>
+			<a href="#" onclick="replaceLocationThree()">Bucket List Destinations</a>
+			<a href="#" onclick="replaceLocationFour()"> Contact </a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		
+		
+		</div>
+		<br><br>
+			
+		<h1 align="center" style="font-size: 50px"> Blog </h1>
+			<img src="https://images.squarespace-cdn.com/content/v1/66449dc5479cd300ba805c5d/85955569-9ffc-45c7-a059-a7f41e4fb19a/norway-3.jpg?format=1500w" style="float:right" height="400" width="300">
+			
+		<h2 style="font-family:oblique; font-size:25px; margin-left:100px"> Why Start Blogging? </h2>
+			<div style="margin-left:120px"> Given the state of media, I want to share my experience with travel blogging. I believe that if you want to become a writer, publisher, or blogger - any title you choose or path you wish to take, it is within your reach.
+				</div>
+			<p style="margin-left:120px"> Whether you’re sharing your passions, expertise, or experiences, blogging provides a platform for self-expression and can lead to both personal and professional growth. Some things I've noticed since starting my blog,
+				Regularly blogging hones your writing abilities and improves your communication skills. The more you write, the better you get at structuring your thoughts, being concise, and engaging your audience. This can carry over into other areas of life, such as work and personal communication.
+				As a blogger, you’re constantly learning. Researching new topics, keeping up with trends, and improving your writing and SEO knowledge are all part of the process. This continuous learning not only benefits your blog but also broadens your knowledge and personal growth in various fields. </p>
+			<p style="margin-left:120px"> There’s a deep sense of satisfaction that comes with publishing content you’ve worked hard on. Seeing your blog grow, getting positive feedback from readers, and achieving milestones like increased traffic or landing a sponsorship can be incredibly fulfilling. Traveling is something I enjoy doing very much so sharing my experiences here will be something I look forward to everyday. </p>	
+	
+			
+			
+		<script>
+			function myFunction() {
+				var x = document.getElementById("topnav");
+				if (x.className === "Navbar") {
+				x.className += " responsive";
+				} else {
+				x.className = "topnav";
+				}
+			}
+			
+			function goBack() {
+			  history.back();
+			}
+			
+			function replaceLocationOne() {
+				// Replace the current location
+				// with new location
+				let newloc = "MyHome.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationTwo() {
+				// Replace the current location
+				// with new location
+				let newloc = "MyGallery.html";
+				window.location.replace(newloc);
+			}
+			
+			function replaceLocationThree() {
+				// Replace the current location
+				// with new location
+				let newloc = "BucketListDestinations.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationFour() {
+				let newloc = "ContactMe.html";
+				window.location.replace(newloc);
+			}
+		
+		</script>
+
+	
+		</body>
+
+</html>

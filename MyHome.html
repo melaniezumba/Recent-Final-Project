@@ -1,0 +1,116 @@
+<!Doctype html>
+<html>
+	<head>
+		<title> Myhome </title>
+		
+		<link rel="stylesheet" href="individualproj.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+		<body BGCOLOR=#f6eef2>
+		<h2 align="center" style="color:#a54572; font-size:50px;"> Welcome To My Life</h2>
+		<div class="navbar" id="Navbar" align="center">
+		  <a href="#" class="active">MyHome</a>
+		  <a href="#" onclick="replaceLocationOne()">Blog</a>
+		  <a href="#" onclick="replaceLocationTwo()">My Gallery</a>
+		  <a href="#" onclick="replaceLocationThree()">Bucket List Destinations</a>
+		  <a href="#" onclick="replaceLocationFour()"> Contact Me </a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		  </a>
+		</div>
+			<br>
+    
+    <div align="Center">
+		<img src="C:\Users\melan\OneDrive\Pictures\profile pic.jpeg" style="height:400px; width= 600px">
+	</div>
+	   
+	   <h5 align="center">Oct.11 Vegas Spring Break </h5>
+      <div style="margin-left: 150px; margin-right:150px; font-size: 20px" class="desc"> Hi there! My name is Melanie Zumba. I'm a softmore at NKU and I love to travel in my free time (or whenever I have the extra money!) 
+	  I'm a passionate traveler and a full-time student. Between lectures and assignments, I make it a priority to explore new destinations, discover hidden gems, and immerse myself in different cultures. 
+	  Through this blog, I share my travel stories, tips, and experiences, all while balancing the busy life of a student. Whether I’m embarking on weekend getaways or planning longer adventures, my goal is to inspire fellow wanderlust-filled souls to travel more, even when time and budgets are tight.
+	  Join me as I take you on a journey through my adventures, both near and far! I enjoy taking trips with my friends and family and plan on adding my adventures here! Here is where I have visited so far and my top recommendations for your next visit.
+	</div>
+	
+	</div>
+	
+	<br><br><br>
+	
+	<div align="center" style= "font-size: 40px; color: #4672d6"> AS SEEN IN </div>
+		<img src="https://studiofotograficobacci.com/wp-content/uploads/2024/04/vogue-logo-png-transparent.png" height="300" width="200">
+		<img src="https://1000logos.net/wp-content/uploads/2017/04/New-York-Times-logo.png" height="300" width="250">
+		<img src="https://cdn.worldvectorlogo.com/logos/cnn-logo.svg" height="300" width="200">
+		<img src="https://climatejusticealliance.org/wp-content/uploads/2021/11/Boston-Globe-Logo.png" height="250" width="200">
+		<img src="https://logodownload.org/wp-content/uploads/2017/04/forbes-logo-0.png" height="300" width="220">
+		
+	
+	
+
+		<fieldset style="bgcolor: #fce3f1">
+			<h1 align="center"> Newsletter </h1>
+			
+			<form style="margin-left: 150px; margin-right:150px; font-size: 20px" class="desc"> Subscribe to my newsletter for the latest blog posts, tips and travel guides. Let's stay updated!
+			
+	<br><br>
+	
+			<div style="text-align:center">	
+				<input type="text" id="Email" name="Email" placeholder="Enter your email">
+				<input type="button" name="Subscribe" value="Subscribe">
+	
+			</form>
+
+		</fieldset>
+
+	<br><br>
+	<hr>
+	
+	
+	
+	
+	
+	
+
+
+		<script>
+			function myFunction() {
+				var x = document.getElementById("topnav");
+				if (x.className === "Navbar") {
+				x.className += " responsive";
+				} else {
+				x.className = "topnav";
+				}
+			}
+			
+			function goBack() {
+			  history.back();
+			}
+			
+			function replaceLocationOne() {
+				// Replace the current location
+				// with new location
+				let newloc = "Blog.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationTwo() {
+				// Replace the current location
+				// with new location
+				let newloc = "MyGallery.html";
+				window.location.replace(newloc);
+			}
+			
+			function replaceLocationThree() {
+				// Replace the current location
+				// with new location
+				let newloc = "BucketListDestinations.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationFour() {
+				let newloc = "ContactMe.html";
+				window.location.replace(newloc);
+			}
+		
+		</script>
+	</body>
+	
+
+
+</html>
